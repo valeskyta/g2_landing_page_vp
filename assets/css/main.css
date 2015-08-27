@@ -1,0 +1,96 @@
+[class*='btn-'] {
+	background-color: #1ed760;
+	border: none;
+	color: #FFF;
+	text-transform: uppercase;
+	font-family: 'Montserrat';
+	font-size: 1.8rem;
+	font-weight: 700;
+	border-radius: 40px;
+	width: 268px;
+	height: 60px;
+}
+
+.btn-header {
+	background-image: linear-gradient(to right, hsl(198, 100%, 17%) 0%, hsl(141, 76%, 48%) 100%);
+}
+
+.btn-video {
+	/*opacity: 0.4;*/
+	position: relative;
+	border: 2px solid #1ed760;
+	background-color: hsla(0, 0%, 0%, 0.4);
+	/*background-color: rgba(0, 0, 0, 0.4);*/
+	top: 50%;
+}
+
+.btn-video:hover  {
+	background-color: #1ed760;
+}
+
+.menu {
+	position: absolute;
+	text-align: center;
+	padding-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1200px;
+	color: #FFF;
+}
+
+.menu-item {
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+.logo {
+	position: relative;
+	top: -14px;
+	display: inline-block;
+	background-image: url(../../images/preylogo.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 123px;
+	height: 106px;
+	text-indent: -9999px;
+	overflow: hidden;
+	vertical-align: top;
+}
+
+.header {
+	background-image: url(../../images/header.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	padding-top: 200px;
+	padding-bottom: 120px;
+}
+
+.header-subtitle {
+	color: #FFF;
+	padding-right: 300px;
+}
+
+.theft {
+	background-color: #3eb8f7;
+	padding-top: 40px;
+}
+
+.theft p {
+	color: #FFF;
+}
+
+.theft-title {
+	color: #FFF;
+}
+
+.theft-video {
+	position: relative;
+	text-align: center;
+	background-image: url(../../images/ipad.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: 100% auto;
+	height: 322px;
+}
